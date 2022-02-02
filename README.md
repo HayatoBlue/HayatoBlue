@@ -16,7 +16,7 @@ def area_circulo(c):
 def area_trapezio(a, b, c):
     return (a + b) / 2 * c
 
-def main():
+def principal():
     x = input().split(" ")
     a = float(x [0])
     b = float(x [1])
@@ -29,4 +29,4 @@ def main():
     print(f"TRIANGULO: {primeira_area:.3f}\nCIRCULO: {segunda_area:.3f}\nTRAPEZIO: {terceira_area:.3f}\nQUADRADO: {area_quadrado:.3f}\nRETANGULO: {area_retangulo:.3f}")
 
 
-main()
+principal()
